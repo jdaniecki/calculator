@@ -3,7 +3,7 @@ import java.util.stream.DoubleStream;
 public class Calculator {
 
     static double add(double... operands) {
-        return 0;
+        return -1;
     }
 
     static double multiply(double... operands) {
