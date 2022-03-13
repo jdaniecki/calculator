@@ -1,13 +1,13 @@
 # Calculator
 
-## Articles
+## Links
 - https://www.atlassian.com/agile/kanban
 - https://www.atlassian.com/agile/project-management/user-stories
 - https://semver.org/
 - https://www.jetbrains.com/help/idea/junit.html
+- https://mermaid-js.github.io/mermaid-live-editor
 
-## Prerequisites
-- [MariaDb](https://hub.docker.com/_/mariadb/)
+## [MariaDb](https://hub.docker.com/_/mariadb/)
   - Start a mariadb server instance:
     ```
     docker pull mariadb
@@ -18,3 +18,10 @@
     ```
     docker run -it --rm --network some-network mariadb mysql -hsome-mariadb -uexample-user -p
     ```
+
+## Design
+```mermaid
+graph TD
+    A[GUI: Java Swing] --> B[Business Logic: Java 11]
+    B --> C[Database: MariaDB]
+```
