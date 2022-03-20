@@ -6,6 +6,8 @@
 - https://semver.org/
 - https://www.jetbrains.com/help/idea/junit.html
 - https://mermaid-js.github.io/mermaid-live-editor
+- https://getsolutionhub.blogspot.com/2022/03/java-swing-create-simple-calculator.html
+- https://docs.oracle.com/javase/tutorial/uiswing/components/frame.html
 
 ## [MariaDb](https://hub.docker.com/_/mariadb/)
   - Start a mariadb server instance:
